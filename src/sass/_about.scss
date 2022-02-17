@@ -55,6 +55,8 @@ p {
     color: #d41443;
 
     margin: 0 0 26px 0;
+    width: 90%;
+    margin: 0 auto;
     @media screen and (min-width: 768px) {
       font-size: 48px;
       line-height: 1.14;
@@ -73,6 +75,8 @@ p {
       max-width: 280px;
       margin: 0 auto;
       margin-bottom: 46px;
+      max-width: 280px;
+      max-height: 279px;
     }
     @media screen and(min-width:768px) {
       margin-right: 17px;
@@ -133,6 +137,7 @@ p {
 .about-btn {
   width: 176px;
   height: 44px;
+
   background: #ffffff;
   border-radius: 22px;
   border: 0;
@@ -144,11 +149,17 @@ p {
   line-height: 1.28;
 
   color: #d41443;
+
+  margin-top: 17px;
+
   @media screen and(min-width:768px) {
     font-size: 16px;
     line-height: 1.31;
     margin-top: 17px;
   }
+}
+.about-btn > img {
+  margin-left: 13px;
 }
 
 // для бекграунд
