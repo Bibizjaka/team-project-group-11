@@ -2,7 +2,7 @@
   background-color: #fff5f6;
   @media screen and (max-width: 767px) {
     padding: 125px 0 0 0;
-    background-image: url(../images/about-milk-mob1x.png);
+    background-image: url(../images/about/about-milk-mob1x.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 766px;
@@ -10,13 +10,13 @@
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url(../images/about-milk-mob2x.png);
+    background-image: url(../images/about/about-milk-mob2x.png);
   }
   @media screen and(min-width:768px) {
     padding: 130px 36px 66px 39px;
   }
   @media screen and(min-width:1280px) {
-    background-image: url(../images/about-milk-desk1x.png);
+    background-image: url(../images/about/about-milk-desk1x.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 342px;
@@ -25,7 +25,7 @@
   @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
     screen and (min-width: 1200px) and (min-resolution: 192dpi),
     screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-    background-image: url(../images/about-milk-desk2x.png);
+    background-image: url(../images/about/about-milk-desk2x.png);
   }
 }
 
